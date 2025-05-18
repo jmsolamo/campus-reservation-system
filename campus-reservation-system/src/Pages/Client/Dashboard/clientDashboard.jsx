@@ -40,7 +40,7 @@ function ClientDashboard({ isCollapsed }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [goToDate, setGoToDate] = useState('');
   const [showGoToModal, setShowGoToModal] = useState(false);
-  const [goToMonth, setGoToMonth] = useState('');
+  const [goToMonth, setGoToMonth] = useState(''); // Assuming this is intended for the modal
   const [goToDay, setGoToDay] = useState('');
   const [goToYear, setGoToYear] = useState('');
   const [events, setEvents] = useState([]); // Local events state instead of context

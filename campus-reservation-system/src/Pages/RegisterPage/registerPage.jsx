@@ -5,7 +5,6 @@ import "./registerPage.css";
 function RegisterPage() {
   const [formData, setFormData] = useState({
     firstName: "",
-    middleName: "",
     lastName: "",
     department: "",
     email: "",

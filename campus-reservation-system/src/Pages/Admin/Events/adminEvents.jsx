@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import 'boxicons/css/boxicons.min.css';
 import './adminEvents.css';
 
